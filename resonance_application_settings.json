@@ -5,13 +5,13 @@
         "formatInputs": [
           {
             "inputId": "header",
-            "inputDescription": "This is the banner header text.",
+            "inputDescription": "This is the modal header text.",
             "inputType": "text",
             "inputName": "Header"
           },
           {
             "inputId": "description",
-            "inputDescription": "This is the banner description.",
+            "inputDescription": "This is the modal description.",
             "inputType": "text",
             "inputName": "Description"
           },
