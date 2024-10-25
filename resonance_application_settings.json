@@ -1,0 +1,52 @@
+{
+  "config": {
+    "overlayFormats": [
+      {
+        "formatInputs": [
+          {
+            "inputId": "header",
+            "inputDescription": "This is the banner header text.",
+            "inputType": "text",
+            "inputName": "Header"
+          },
+          {
+            "inputId": "description",
+            "inputDescription": "This is the banner description.",
+            "inputType": "text",
+            "inputName": "Description"
+          },
+          {
+            "inputId": "first_cta_text",
+            "inputDescription": "This is the first CTA's text.",
+            "inputType": "text",
+            "inputName": "First CTA Text"
+          },
+          {
+            "inputId": "first_cta_action",
+            "inputDescription": "This is the first CTA's action.",
+            "inputType": "cta",
+            "inputName": "First CTA Action"
+          },
+          {
+            "inputId": "second_cta_text",
+            "inputDescription": "This is the second CTA's text.",
+            "inputType": "text",
+            "inputName": "Second CTA Text"
+          },
+          {
+            "inputId": "second_cta_action",
+            "inputDescription": "This is the second CTA's action.",
+            "inputType": "cta",
+            "inputName": "Second CTA Action"
+          }
+        ],
+        "formatName": "Modal"
+      }
+    ],
+    "events": [
+      {
+        "eventId": "Button Clicked"
+      }
+    ]
+  }
+}
