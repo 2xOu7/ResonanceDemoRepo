@@ -11,7 +11,6 @@ export default function Home() {
       <Button
         onClick={() => {
           logConversion('test_event')
-          console.log('Here')
         }}
         variant={'outlined'}
         style={{ marginLeft: '10px', marginRight: '10px', marginTop: '10px' }}
