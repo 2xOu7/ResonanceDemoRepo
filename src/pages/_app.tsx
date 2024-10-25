@@ -6,10 +6,8 @@ import SimpleModal from '@/components/SimpleModal'
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <ResonanceCrossChannelClient
-      externalUserId={'123'}
-      apiKey={
-        'a5e16b66cef5a5586da1b434f66ec217ffab665bd8bff3a01fff0d23f4fe420e5bec55dd53b50ede8c5a5c22369b2510'
-      }
+      externalUserId={'123'} // Doesn't matter what you put here for now.
+      apiKey={'insert-your-api-key'}
       eventContext={{}}
       userAttributes={{}}
       apiUrl={'https://app.medaltv.useresonance.com'}
