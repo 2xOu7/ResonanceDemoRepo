@@ -29,6 +29,8 @@ export default function Home() {
       >
         Trigger Button
       </Button>
+      <br />
+      <br />
       <SimpleBanner />
     </>
   )
