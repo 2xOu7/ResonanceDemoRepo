@@ -47,6 +47,33 @@
       {
         "eventId": "Button Clicked"
       }
+    ],
+    "pageletFormats": [
+      {
+        "formatInputs": [
+          {
+            "inputId": "description",
+            "inputDescription": "This is the banner description.",
+            "inputType": "text",
+            "inputName": "Description"
+          },
+          {
+            "inputId": "button_text",
+            "inputDescription": "This is the banner button text.",
+            "inputType": "text",
+            "inputName": "Button Text"
+          },
+          {
+            "inputId": "cta",
+            "inputDescription": "This is the banner button click through action.",
+            "inputType": "cta",
+            "inputName": "Click Through Action"
+          }
+        ],
+        "formatName": "Embedded Home Page Banner",
+        "slot": "Below Navigation Bar",
+        "surface": "http://localhost:3000/"
+      }
     ]
   }
 }
