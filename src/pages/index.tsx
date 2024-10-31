@@ -4,6 +4,7 @@ import '@fontsource/roboto/500.css'
 import '@fontsource/roboto/700.css'
 import { Button } from '@mui/material'
 import { logConversion, notifyEvent } from 'resonance-client'
+import SimpleBanner from '@/components/SimpleBanner'
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
       >
         Trigger Button
       </Button>
+      <SimpleBanner />
     </>
   )
 }
